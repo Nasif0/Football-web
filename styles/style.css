@@ -72,6 +72,119 @@ margin-top: 50px;
 }
 /*-------------------------- header down------------------------ */
 
+.box2{
+     background: #161616;
+border-radius: 10px;
+width: 312px;
+height: 312px;
+margin-left: 85px;
+margin-top: 130px;
+text-align: center;
+display: grid;
+grid-template-rows: repeat(3,1fr);
+
+
+}
+.box2 a{
+     
+     text-decoration: none;
+     width: 252px;
+     height: 252px;
+
+    background: #ffc803;
+   
+    border-radius: 10px;
+  border: none;
+  color: #161616;
+  padding: 17px 39px;
+  text-align: center;
+  font-size: 20px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  
+}
+.box2 a:hover {opacity: 1}
+.box2 h4{
+     padding-top: 50px;
+}
+/* ------------------header down image----------- */
+
+
+/*  ------------grid-flex------
+-------------------------------- */
+.container-2{
+
+     display: grid;
+   grid-template-columns:repeat(3,1fr);
+   column-gap: 24px;
+   row-gap: 24px;
+   padding: 10%;
+   flex-wrap: wrap;
+
+    
+     margin-top: -31.5%;
+     margin-left: 25%;
+
+    
+
+   
+     
+     
+}
+.players{
+    
+   
+     border: 1px solid #E8E8E8;
+     border-radius: 10px;
+     width: 312px;
+     height: 362px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.player img{
+     width: 312px;
+height: 175px;
+border-radius: 10px 10px 0px 0px;
+}
+.transfer{
+     width: 100px;
+height: 32px;
+     border: 1px solid #161616;
+border-radius: 5px;
+margin-left: 20px;
+
+}
+.transfer-live{
+     color: #161616;
+     padding-top: 19px;
+     margin-left: 20px;
+}
+.icon1{
+     padding-top: 20px;
+     color: rgba(22, 22, 22, 0.7);
+     margin-left: 20px;
+}
+.icon2{
+     color: rgba(22, 22, 22, 0.7);
+     display: flex;
+     margin-top: -24px;
+}
+
+
+     
+   
+     
+
 
 
 
