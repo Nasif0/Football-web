@@ -71,41 +71,49 @@ margin-top: 50px;
 }
 /*--------------------------upcoming header down------------------------ */
 
+.box2 ul li a{
+     text-decoration: none;
+     color: #161616;
+     font-size: 20px;
+     position: absolute;
+     width: 252px;
+     height: 64px;
+    
+     background: #FFFFFF;
+border-radius: 10px;
+transition: 0.5s;
+
+
+
+
+}
+ul li a:hover{
+     background-color:  #DD0000;
+}
+.a1{
+     margin-top: 2%;
+     margin-left: 30px;
+     text-align: center;
+}
+
+.a2{
+     margin-top: 7%;
+margin-left: 30px;
+text-align: center;
+}
+.a3{
+margin-top: 12%;
+margin-left: 30px;
+text-align: center;
+
+}
 .box2{
      background: #161616;
-border-radius: 10px;
-width: 312px;
-height: 312px;
-margin-left: 85px;
-margin-top: 130px;
-text-align: center;
-display: grid;
-grid-template-rows: repeat(3,1fr);
-
-
-}
-.box2 a{
-     
-     text-decoration: none;
-     width: 252px;
-     height: 252px;
-
-    background: #ffc803;
-   
-    border-radius: 10px;
-  border: none;
-  color: #161616;
-  padding: 17px 39px;
-  text-align: center;
-  font-size: 20px;
-  margin: 4px 2px;
-  opacity: 0.6;
-  transition: 0.3s;
-  
-}
-.box2 a:hover {opacity: 1}
-.box2 h4{
-     padding-top: 50px;
+     border-radius: 10px;
+      width: 312px;
+      height: 312px;
+     margin-left: 5.5%;
+     margin-top: 130px;;
 }
 /* --------------upcoming container 2 ---------------------------  */
 
@@ -202,8 +210,11 @@ margin-top: 200px;}
 
 /* ---------------------------mobile quary------------------------- */
 
-@media  (max-width:688px){
- 
+@media  (max-width:640px){
+ *{
+     margin: 0;
+     padding: 0;
+ }
      .container{
      
           width: 334px;
@@ -225,17 +236,29 @@ margin-top: 200px;}
            .lawendowski{
                width: 233px;
                margin-top: 168%;
+               margin-left: 10%;
               
      
            }
+           
            .box2{
-              margin-top: 20px;
+              margin-left: 21.5%;
+           }
+           .a1{
+               margin-top: 10%;
+           }
+           .a2{
+               margin-top: 25%;
+           }
+           .a3{
+               margin-top: 40%;
            }
            .container-2{
              
             display: flex;
             flex-direction: column;
-            margin-top: 20px;
+            margin-top: 80px;
+            margin-left: -7%;
              
            }
           
@@ -264,6 +287,60 @@ margin-top: 200px;}
           }
 
 /*---------------------- tablet device------------------------- */
+@media only screen and (min-width:688px) and (max-width:992px){
+*{
+     margin: 0;
+     padding: 0;
+
+}
+.container{
+     width: 734px;
+height: 398px;
+}
+.h-text1{
+     font-size: 25px;
+     margin-top: -80px;
+ }
+ .h-text2{
+     font-size: 10px;
+     
+ }
+ .lawendowski{
+     width: 350px;
+     margin-top: 75%;
+     margin-left: 10%;
+    
+
+ }
+ .box2{
+     margin-left: 38%;
+}
+.a2{
+     margin-top: 11%;
+}
+.a3{
+     margin-top: 20%;
+}
+.container-2{
+             
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     margin-top: 80px;
+     margin-left: -15%;
+      
+    }
+    .container3{
+     width: 834px;
+height: 345px;
+}
+hr{
+     width: 734px;
+     margin-top: -5px;
+}
+
+
+
+}
 
 
  
