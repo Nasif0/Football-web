@@ -107,4 +107,61 @@ grid-template-rows: repeat(3,1fr);
 .box2 h4{
      padding-top: 50px;
 }
+/* --------------upcoming container 2 ---------------------------  */
+
+.container-2{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     padding-left: 29%;
+   margin-top: -21.5%;
+   
+   row-gap: 20px;
+    
+    
+     
+}
+.blogs{
+    
+
+    width: 312px;
+    height: 242px;
+    border: 1px solid #E8E8E8;
+border-radius: 10px;
+}
+
+.flag{
+     
+   
+     width: 252px;
+     height: 136.18px;
+     margin-left: 30px;
+    margin-top: 53px;
+   
+}
+.germeny-vs-france{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+    
+}
+.germeny-vs-france h3{
+     color: #161616;
+     font-size: 16px;
+     padding: 20.92px;
+}
+.flag-text{
+     text-align: center;
+margin-top: 20px;
+}
+.flag-text h3{
+     color: #161616;
+     font-size: 20px;
+}
+.flag-text p{
+     color: #4D4D4D;
+     font-size: 16px;
+     margin-top: 10px;
+}
+
+
 

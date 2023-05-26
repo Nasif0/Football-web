@@ -218,6 +218,70 @@ height: 0px;
 margin-top: 200px;
 
      }
+
+     /* mobile quary------------------------- */
+
+ @media  (max-width:688px){
+ *{
+     margin: 0;
+     padding: 0;
+ }    
+.container{
+
+     width: 334px;
+height: 472px;
+
+background: #161616;
+border-radius: 10px;
+background: #161616;
+border-radius: 10px;
+   } 
+      .h-text1{
+          font-size: 22px;
+          margin-top: -80px;
+      }
+      .h-text2{
+          font-size: 5px;
+          
+      }
+      .lawendowski{
+          width: 233px;
+          margin-top: 168%;
+         
+
+      }
+      .box2{
+         margin-top: 20px;
+      }
+      .container-2{
+         display: flex;
+         margin-top: 20px;
+         
+      }
+     
+      .container3{
+          width: 500px;
+height: 412px;
+text-align: center;
+justify-content: center;
+
+
+      }
+      
+      
+      hr{
+          margin-top: -5px;
+
+      }
+      .navigations{
+         margin-top: -10px;
+      }
+      ul nav a{
+          display: flex;
+      }
+
+
+     }
  
    
      
