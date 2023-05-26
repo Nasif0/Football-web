@@ -218,14 +218,10 @@ height: 0px;
 margin-top: 200px;
 
      }
-
-     /* mobile quary------------------------- */
+/* ---------------------------mobile quary------------------------- */
 
  @media  (max-width:688px){
- *{
-     margin: 0;
-     padding: 0;
- }    
+ 
 .container{
 
      width: 334px;
@@ -256,6 +252,7 @@ border-radius: 10px;
       .container-2{
          display: flex;
          margin-top: 20px;
+         margin-right: 25px;
          
       }
      
@@ -283,9 +280,53 @@ justify-content: center;
 
      }
  
-   
-     
+   /* --------------------Tablet Queries -------------*/
 
+
+@media only screen and (min-width:688px) and (max-width:992px){
+
+     .container{
+          width: 734px;
+height: 398px;
+     }
+     .lawendowski{
+          width: 350px;
+          margin-top: 61%;
+          margin-left: 15%;
+     }
+   
+     .h-text1{
+          font-size: 35px;
+          margin-top: -50px;
+     }
+     .h-text2{
+          font-size: 8px;
+     }
+   .box2{
+     margin-left: 38%;
+
+    
+   }
+   
+   
+
+     .container-2{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          margin-top: 10px;
+          
+        
+     }
+     .container3{
+          width: 834px;
+height: 345px;
+     }
+     hr{
+          width: 734px;
+          margin-top: -5px;
+     }
+   
+}
 
 
 
